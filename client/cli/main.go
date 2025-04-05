@@ -41,7 +41,7 @@ func (c *Controller) StartCli() {
 	errorMessage := ""
 	for {
 		c.clearConsole()
-		fmt.Printf("Lab2. Sum of two numbers (Variant 2). Protocol: %s\n", c.Net.Protocol)
+		fmt.Printf("Sum of two numbers (Variant 2). Protocol: %s\n", c.Net.Protocol)
 		println()
 
 		if errorMessage != "" {
